@@ -1494,3 +1494,8 @@ section {
   color: white !important;
   box-shadow: 1px 1px var(--color-primary);
 }
+
+#korte-info > div > div > div > div.icon.flex-shrink-0 {
+  width: 15%;
+  padding: 1rem 0rem;
+}
