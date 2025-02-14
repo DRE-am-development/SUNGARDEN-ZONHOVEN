@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
             margin: 0;
             background-color: #f8f9fa;
         }
+
         .login-container {
             text-align: center;
             background: #ffffff;
@@ -22,11 +24,13 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         .iframe-container {
             display: none;
         }
     </style>
 </head>
+
 <body>
     <div class="login-container">
         <h2>Enter Pincode</h2>
@@ -35,11 +39,13 @@
         </div>
         <button class="btn btn-primary" onclick="checkPincode()">Submit</button>
     </div>
-    <div class="iframe-container" id="iframeContainer">
+    <div class="iframe-container" id="iframeContainer" style="text-align: center;">
 
 
-        // deze iframe aanpassen naar juiste form
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScnn75LUev0_n5DkZ35fkTDjc8ZdX1F_aGm-V_z-O69fYtGNw/viewform?embedded=true" width="640" height="1148" frameborder="0" marginheight="0" marginwidth="0">Laden…</iframe>
+                <!--Deze iframe aanpassen -> bij het forum voorbeeld en dan <> of insluiten ofz  -->
+        <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLScnn75LUev0_n5DkZ35fkTDjc8ZdX1F_aGm-V_z-O69fYtGNw/viewform?embedded=true"
+            width="640" height="1148" frameborder="0" marginheight="0" marginwidth="0">Laden…</iframe>
     </div>
 
     <script>
@@ -60,4 +66,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
