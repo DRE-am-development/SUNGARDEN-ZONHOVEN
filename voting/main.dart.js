@@ -40587,7 +40587,7 @@ for(r=this.d,q=this.c,p=0;p<r;++p){o=p/r*2*3.141592653589793
 a.m0(new A.j(s+s*Math.cos(o),s+s*Math.sin(o)),q,n)}},
 eq(a){return!0}}
 A.Kl.prototype={
-O(a){return new A.yP(new A.AQ(this.c,null),"Flutter Voting App",$.aE1(),null)}}
+O(a){return new A.yP(new A.AQ(this.c,null),"DRS Voting App",$.aE1(),null)}}
 A.oR.prototype={
 vM(a){return this.a2d(a)},
 a2d(a){var s=0,r=A.J(t.H),q=this,p,o,n
